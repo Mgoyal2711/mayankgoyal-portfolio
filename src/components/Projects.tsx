@@ -120,23 +120,6 @@ const Projects = () => {
           })}
         </div>
 
-        {/* Call to Action */}
-        <div className="text-center mt-12">
-          <Card className="glow-card max-w-2xl mx-auto">
-            <CardContent className="p-8">
-              <h3 className="text-xl font-semibold mb-4">Want to see more projects?</h3>
-              <p className="text-muted-foreground mb-6">
-                Check out my GitHub profile for a complete list of projects and contributions.
-              </p>
-              <Button asChild className="bg-gradient-primary hover:shadow-glow">
-                <a href="https://github.com/Mgoyal2711" target="_blank" rel="noopener noreferrer">
-                  <Github className="h-4 w-4 mr-2" />
-                  View All Projects
-                </a>
-              </Button>
-            </CardContent>
-          </Card>
-        </div>
       </div>
       
       <div className="section-divider container mx-auto px-4 sm:px-6 lg:px-8"></div>

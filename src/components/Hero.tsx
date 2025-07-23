@@ -42,10 +42,13 @@ const Hero = () => {
               <Button 
                 variant="outline" 
                 size="lg"
+                asChild
                 className="border-primary hover:bg-primary hover:text-primary-foreground"
               >
-                Download Resume
-                <Download className="ml-2 h-4 w-4" />
+                <a href="https://drive.google.com/uc?export=download&id=165Gt38yBUJzA7dRD-uWjRVqFb_GiwO6N" download>
+                  Download Resume
+                  <Download className="ml-2 h-4 w-4" />
+                </a>
               </Button>
             </div>
 
@@ -89,7 +92,7 @@ const Hero = () => {
             <div className="relative">
               <div className="w-64 h-64 sm:w-80 sm:h-80 rounded-full bg-gradient-primary p-1 animate-float">
                 <img 
-                  src="/lovable-uploads/4b8f6c08-9428-44e6-abc5-3466f1e2dad9.png"
+                  src="/lovable-uploads/mayank-profile.jpg"
                   alt="Mayank Goyal"
                   className="w-full h-full rounded-full object-cover"
                 />
