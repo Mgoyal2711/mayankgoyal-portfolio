@@ -84,13 +84,15 @@ const Hero = () => {
             </div>
           </div>
 
-          {/* Profile Picture Placeholder */}
+          {/* Profile Picture */}
           <div className="flex justify-center lg:justify-end">
             <div className="relative">
               <div className="w-64 h-64 sm:w-80 sm:h-80 rounded-full bg-gradient-primary p-1 animate-float">
-                <div className="w-full h-full rounded-full bg-muted flex items-center justify-center text-4xl font-bold text-primary">
-                  MG
-                </div>
+                <img 
+                  src="/lovable-uploads/4b8f6c08-9428-44e6-abc5-3466f1e2dad9.png"
+                  alt="Mayank Goyal"
+                  className="w-full h-full rounded-full object-cover"
+                />
               </div>
               <div className="absolute inset-0 rounded-full bg-gradient-primary opacity-20 animate-glow"></div>
             </div>

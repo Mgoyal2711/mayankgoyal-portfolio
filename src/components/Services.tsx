@@ -151,48 +151,6 @@ const Services = () => {
           })}
         </div>
 
-        {/* Process Overview */}
-        <div className="mt-16">
-          <Card className="glow-card">
-            <CardContent className="p-8">
-              <h3 className="text-2xl font-semibold text-center mb-8">My Development Process</h3>
-              
-              <div className="grid md:grid-cols-4 gap-6">
-                <div className="text-center">
-                  <div className="w-16 h-16 bg-gradient-primary rounded-full flex items-center justify-center mx-auto mb-4">
-                    <span className="text-2xl font-bold text-primary-foreground">1</span>
-                  </div>
-                  <h4 className="font-semibold mb-2">Discovery</h4>
-                  <p className="text-sm text-muted-foreground">Understanding your requirements and goals</p>
-                </div>
-                
-                <div className="text-center">
-                  <div className="w-16 h-16 bg-gradient-primary rounded-full flex items-center justify-center mx-auto mb-4">
-                    <span className="text-2xl font-bold text-primary-foreground">2</span>
-                  </div>
-                  <h4 className="font-semibold mb-2">Planning</h4>
-                  <p className="text-sm text-muted-foreground">Creating detailed project roadmap and timeline</p>
-                </div>
-                
-                <div className="text-center">
-                  <div className="w-16 h-16 bg-gradient-primary rounded-full flex items-center justify-center mx-auto mb-4">
-                    <span className="text-2xl font-bold text-primary-foreground">3</span>
-                  </div>
-                  <h4 className="font-semibold mb-2">Development</h4>
-                  <p className="text-sm text-muted-foreground">Building your solution with best practices</p>
-                </div>
-                
-                <div className="text-center">
-                  <div className="w-16 h-16 bg-gradient-primary rounded-full flex items-center justify-center mx-auto mb-4">
-                    <span className="text-2xl font-bold text-primary-foreground">4</span>
-                  </div>
-                  <h4 className="font-semibold mb-2">Delivery</h4>
-                  <p className="text-sm text-muted-foreground">Testing, deployment, and ongoing support</p>
-                </div>
-              </div>
-            </CardContent>
-          </Card>
-        </div>
       </div>
       
       <div className="section-divider container mx-auto px-4 sm:px-6 lg:px-8"></div>
